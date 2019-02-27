@@ -42,7 +42,7 @@ export class ApiService {
       return this.http.get<CoinMarketCap[]>('https://api.github.com/users');
     // return this.http.get<CoinMarketCap[]>('https://api.coinmarketcap.com/v1/ticker/');
       //'https://api.coinmarketcap.com/v1/ticker/');
-      // "Good work done by vegiharendranath"
+      // ""
 
   }
 
