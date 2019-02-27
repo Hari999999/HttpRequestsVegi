@@ -1,0 +1,18 @@
+
+
+<table id="example" class="display" style="width:100%">
+<div class="text-center" style="padding: 50px;">
+  <h2>ListView</h2>
+</div>
+
+
+ <!-- <table datatable [dtOptions]="dtOptions" class="row-border hover"> -->
+ <!-- input for datatable plugin is coinMarketCapDataList -->
+  <div>
+    <ul class="list-group">
+      <li *ngFor="let bitcoindata of coinMarketCapDataList">
+          {{bitcoindata.name}} 
+          {{bitcoindata.id}}
+      </li>
+    </ul>
+  </div>
